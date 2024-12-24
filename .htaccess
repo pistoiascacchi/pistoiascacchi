@@ -1,0 +1,41 @@
+# Don't show directory listings for URLs which map to a directory.
+Options -Indexes
+
+# Follow symbolic links in this directory.
+Options +FollowSymLinks
+
+# Requires mod_expires to be enabled.
+<IfModule mod_expires.c>
+  # Enable expirations.
+#  ExpiresActive On
+
+  # Cache all files for 2 weeks after access (A).
+#  ExpiresDefault A1209600
+
+  # Do not cache dynamically generated pages.
+#  ExpiresByType text/html A1
+
+   FileETag INode MTime Size
+
+</IfModule>
+
+# Various deflate rules.
+<IfModule mod_deflate.c>
+# Enable file compression by MIME type
+# AddOutputFilterByType DEFLATE text/html text/plain text/xml
+AddOutputFilterByType DEFLATE application/x-javascript
+AddOutputFilterByType DEFLATE text/javascript
+AddOutputFilterByType DEFLATE text/css
+</IfModule>
+
+DirectoryIndex Home.htm Home.html home.html home.htm HOME.HTM index.htm index.php index.shtml index.html Index.htm Index.html default.htm 
+
+# Various rewrite rules.
+<IfModule mod_rewrite.c>
+  RewriteEngine on
+
+  RewriteCond %{HTTP_REFERER} !^http://(.+\.)?xoom\.it/ [NC]
+  RewriteCond %{HTTP_REFERER} !^$
+  RewriteRule .*\.(jpe?g|gif|bmp|png)$ - [F]
+
+</IfModule>
