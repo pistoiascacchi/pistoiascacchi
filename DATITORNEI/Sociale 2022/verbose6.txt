@@ -1,0 +1,92 @@
+JVF> Pairings for round #6
+JVF> ############################################################
+JVF> 5 group(s) in round #6
+JVF> Group # 4.0: [5]
+JVF> Group # 3.0: [1, 3, 7]
+JVF> Group # 2.5: [8, 9]
+JVF> Group # 2.0: [6]
+JVF> Group # 1.0: [10]
+JVF> ============================================================
+JVF> Bracket @4.0: [5Bb]
+JVF> MaxPairs:0 (floaters(s):1)
+JVF> getPairs: Unique pairing available
+JVF> Floater: 5
+JVF> ------------------------------------------------------------
+JVF> Requirement zero has been fullfilled
+JVF> ============================================================
+JVF> Bracket @3.0: [5Bb(4.0)][1B_^ 3Bb 7Bb]
+JVF> MaxPairs:2 (MDPPairs: 1)
+JVF> M: Incompatible players list: []
+JVF> M: opps(5): [1]
+JVF> M: opps(1): [5, 7]
+JVF> M: opps(3): [7]
+JVF> M: opps(7): [1, 3]
+JVF> getPairs: Unique pairing available
+JVF> Pair:    5 - 1
+JVF> Pair:    3 - 7
+JVF> ------------------------------------------------------------
+JVF> Requirement zero has been fullfilled
+JVF> ============================================================
+JVF> Bracket @2.5: [8Ww 9w]
+JVF> MaxPairs:0 (floaters(s):2)
+JVF> getPairs: Unique pairing available
+JVF> Floater: 8
+JVF> Floater: 9
+JVF> ------------------------------------------------------------
+JVF> Requirement zero has been fullfilled
+JVF> ============================================================
+JVF> Bracket @2.0: [8Ww(2.5) 9w][6b_v]
+JVF> MaxPairs:1 (MDPPairs: 1 - floaters(s):1)
+JVF> M: Incompatible players list: []
+JVF> M: opps(8): [6]
+JVF> M: opps(9): [6]
+JVF> M: opps(6): [8, 9]
+JVF> Expected colors: 0W 0B 1w 0b 1(w) 1(b) 0a
+JVF> x=0; z=0
+JVF> Criteria usable at most: [C10, C11, C14, C18]
+JVF> Criteria used in evaluation: [C10, C11, C18]
+JVF> MPT: Evaluation #1 for [ 8] and [ 6]
+JVF> AS1=[ 8]; AS2= [ 6]
+JVF> MPT: Perfect pairing found!
+JVF> Pair:    8 - 6
+JVF> Floater: 9
+JVF> ------------------------------------------------------------
+JVF> C7: Check completed: FAIL
+JVF> Next bracket pairing requires a floaters change
+JVF> Bracket @2.0: [8Ww(2.5) 9w][6b_v]
+JVF> MaxPairs:1 (MDPPairs: 1 - floaters(s):1)
+JVF> M: Incompatible players list: []
+JVF> M: opps(8): [6]
+JVF> M: opps(9): [6]
+JVF> M: opps(6): [8, 9]
+JVF> Re-start best-pairing search
+JVF> MPT: Evaluation #2 for [ 9] and [ 6]
+JVF> AS1=[ 9]; AS2= [ 6]
+JVF> MPT: Perfect pairing found!
+JVF> Pair:    9 - 6
+JVF> Floater: 8
+JVF> ------------------------------------------------------------
+JVF> C7: Check completed: OK
+JVF> Pairing of next bracket is maximum
+JVF> ------------------------------------------------------------
+JVF> Requirement zero has been fullfilled
+JVF> ============================================================
+JVF> Bracket @1.0: [8Ww(2.5)][10W]
+JVF> MaxPairs:1 (MDPPairs: 1)
+JVF> M: Incompatible players list: []
+JVF> M: opps(8): [10]
+JVF> M: opps(10): [8]
+JVF> getPairs: Unique pairing available
+JVF> Pair:    8 - 10
+JVF> Pairing ended - Colour allocation
+JVF> ************************************************************
+JVF> White [  5 (WWBBW=4.0)] - [  1 ( WBWW=3.0)] : =>   5
+JVF> White [  3 (WBWBW=3.0)] - [  7 (WBWBW=3.0)] : =>   7
+JVF> White [  9 ( WBWB=2.5)] - [  6 ( BWBW=2.0)] : =>   9
+JVF> White [  8 (BWBWB=2.5)] - [ 10 ( BWBB=1.0)] : =>  10
+JVF> Pairing for round 6
+JVF> Board #  1# :   5 -   1
+JVF> Board #  2# :   7 -   3
+JVF> Board #  3# :   9 -   6
+JVF> Board #  4# :  10 -   8
+JVF> Pairings done

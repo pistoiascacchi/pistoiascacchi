@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Tournament>
+	<Name>Sociale 2022</Name><HostFederation>ITA</HostFederation><Place>Pistoia</Place><Date Begin="04/10/2022" End="15/10/2022"/><Schedule></Schedule><Arbiters Chief="D Dolci" Deputy="E Paperetti"/><PlaySystem>
+		<RateMove>110 minutes + 30 seconds per move</RateMove><PairingSystem>10</PairingSystem><RRorder></RRorder><RoundsNumber>6</RoundsNumber><ScoreSystem Win="1" Draw="0.5" Loss="0" PAB="0"/>
+	</PlaySystem><InitialRanking>3</InitialRanking><TieBreakers>
+		<TieBreak>  Buc1  </TieBreak><TieBreak>  BucT  </TieBreak>
+	</TieBreakers><AssignedBoards></AssignedBoards><CurrentRound>4</CurrentRound><CompletedRounds>4</CompletedRounds><ProgramVersion>Vega 8.4.2</ProgramVersion><Parameters>
+		<RegistrationClosed>TRUE</RegistrationClosed><UseAdjustedScore>TRUE</UseAdjustedScore><NoTieBreakByeDraw>FALSE</NoTieBreakByeDraw><VesusID>0</VesusID><ServerFolder></ServerFolder><StartBoard>1</StartBoard><VegaID>0</VegaID><VegaUpload>127</VegaUpload><AcceleratedRounds>
+			<AcceleratedSystem>0</AcceleratedSystem><IsSetAcceleration>FALSE</IsSetAcceleration><NumberAcceleratedRounds>0</NumberAcceleratedRounds><Baku_GA>0</Baku_GA><IdLimit High="0" Low="0"/><DecreasedAcceleration>FALSE</DecreasedAcceleration><PointsGroup Top="0" Middle="0" Bottom="0"/>
+		</AcceleratedRounds>
+	</Parameters><Players>
+		<Player>
+			<PairingID>1</PairingID><Name>Paolo Fusari</Name><Federation>ITA</Federation><Origin></Origin><Info></Info><Birthday>000000</Birthday><Gender>m</Gender><Title></Title><ID_FIDE>0</ID_FIDE><RatingFIDE>1969</RatingFIDE><KcoeffFIDE>0</KcoeffFIDE><ID_Nat>0</ID_Nat><RatingNat>0</RatingNat><KcoeffNat>0</KcoeffNat><Status>1</Status><StatusHistory>11111111111111111111111111</StatusHistory>
+		</Player><Player>
+			<PairingID>2</PairingID><Name>David Dolci</Name><Federation>ITA</Federation><Origin></Origin><Info></Info><Birthday>000000</Birthday><Gender>f</Gender><Title></Title><ID_FIDE>0</ID_FIDE><RatingFIDE>1950</RatingFIDE><KcoeffFIDE>0</KcoeffFIDE><ID_Nat>0</ID_Nat><RatingNat>0</RatingNat><KcoeffNat>0</KcoeffNat><Status>0</Status><StatusHistory>11000001111111111111111111</StatusHistory>
+		</Player><Player>
+			<PairingID>3</PairingID><Name>Roberto Orsi</Name><Federation>ITA</Federation><Origin></Origin><Info></Info><Birthday>000000</Birthday><Gender>m</Gender><Title></Title><ID_FIDE>0</ID_FIDE><RatingFIDE>1946</RatingFIDE><KcoeffFIDE>0</KcoeffFIDE><ID_Nat>0</ID_Nat><RatingNat>0</RatingNat><KcoeffNat>0</KcoeffNat><Status>1</Status><StatusHistory>11111111111111111111111111</StatusHistory>
+		</Player><Player>
+			<PairingID>4</PairingID><Name>Stefano Lampiasi</Name><Federation>ITA</Federation><Origin></Origin><Info></Info><Birthday>000000</Birthday><Gender>m</Gender><Title></Title><ID_FIDE>0</ID_FIDE><RatingFIDE>1894</RatingFIDE><KcoeffFIDE>0</KcoeffFIDE><ID_Nat>0</ID_Nat><RatingNat>0</RatingNat><KcoeffNat>0</KcoeffNat><Status>1</Status><StatusHistory>11111111111111111111111111</StatusHistory>
+		</Player><Player>
+			<PairingID>5</PairingID><Name>Lazer Gazhdaj</Name><Federation>ITA</Federation><Origin></Origin><Info></Info><Birthday>000000</Birthday><Gender>m</Gender><Title></Title><ID_FIDE>0</ID_FIDE><RatingFIDE>1868</RatingFIDE><KcoeffFIDE>0</KcoeffFIDE><ID_Nat>0</ID_Nat><RatingNat>0</RatingNat><KcoeffNat>0</KcoeffNat><Status>1</Status><StatusHistory>11111111111111111111111111</StatusHistory>
+		</Player><Player>
+			<PairingID>6</PairingID><Name>Emiliano Paperetti</Name><Federation>ITA</Federation><Origin></Origin><Info></Info><Birthday>000000</Birthday><Gender>m</Gender><Title></Title><ID_FIDE>0</ID_FIDE><RatingFIDE>1778</RatingFIDE><KcoeffFIDE>0</KcoeffFIDE><ID_Nat>0</ID_Nat><RatingNat>0</RatingNat><KcoeffNat>0</KcoeffNat><Status>1</Status><StatusHistory>11111111111111111111111111</StatusHistory>
+		</Player><Player>
+			<PairingID>7</PairingID><Name>Leonardo Gai</Name><Federation>ITA</Federation><Origin></Origin><Info></Info><Birthday>000000</Birthday><Gender>m</Gender><Title></Title><ID_FIDE>0</ID_FIDE><RatingFIDE>1750</RatingFIDE><KcoeffFIDE>0</KcoeffFIDE><ID_Nat>0</ID_Nat><RatingNat>0</RatingNat><KcoeffNat>0</KcoeffNat><Status>1</Status><StatusHistory>11111111111111111111111111</StatusHistory>
+		</Player><Player>
+			<PairingID>8</PairingID><Name>Adriano Benedettini</Name><Federation>ITA</Federation><Origin></Origin><Info></Info><Birthday>000000</Birthday><Gender>m</Gender><Title></Title><ID_FIDE>0</ID_FIDE><RatingFIDE>1682</RatingFIDE><KcoeffFIDE>0</KcoeffFIDE><ID_Nat>0</ID_Nat><RatingNat>0</RatingNat><KcoeffNat>0</KcoeffNat><Status>1</Status><StatusHistory>11111111111111111111111111</StatusHistory>
+		</Player><Player>
+			<PairingID>9</PairingID><Name>Gioni Avanzi</Name><Federation>ITA</Federation><Origin></Origin><Info></Info><Birthday>000000</Birthday><Gender>m</Gender><Title></Title><ID_FIDE>0</ID_FIDE><RatingFIDE>1652</RatingFIDE><KcoeffFIDE>0</KcoeffFIDE><ID_Nat>0</ID_Nat><RatingNat>0</RatingNat><KcoeffNat>0</KcoeffNat><Status>1</Status><StatusHistory>11111111111111111111111111</StatusHistory>
+		</Player><Player>
+			<PairingID>10</PairingID><Name>Lisetta Baldi</Name><Federation>ITA</Federation><Origin></Origin><Info></Info><Birthday>000000</Birthday><Gender>f</Gender><Title></Title><ID_FIDE>0</ID_FIDE><RatingFIDE>1472</RatingFIDE><KcoeffFIDE>0</KcoeffFIDE><ID_Nat>0</ID_Nat><RatingNat>0</RatingNat><KcoeffNat>0</KcoeffNat><Status>1</Status><StatusHistory>11111111111111111111111111</StatusHistory>
+		</Player>
+	</Players><Rounds>
+		<Pairing>
+			<Pair Board="1" White="1" Black="6" Result="10" Type="1"/><Pair Board="2" White="7" Black="2" Result="10" Type="1"/><Pair Board="3" White="3" Black="8" Result="10" Type="1"/><Pair Board="4" White="9" Black="4" Result="01" Type="1"/><Pair Board="5" White="5" Black="10" Result="10" Type="1"/>
+		</Pairing><Pairing>
+			<Pair Board="1" White="4" Black="1" Result="22" Type="1"/><Pair Board="2" White="5" Black="3" Result="10" Type="1"/><Pair Board="3" White="6" Black="7" Result="01" Type="1"/><Pair Board="4" White="8" Black="9" Result="10" Type="1"/><Pair Board="5" White="10" Black="0" Result="10" Type="3"/><Pair Board="6" White="2" Black="0" Result="00" Type="4"/>
+		</Pairing><Pairing>
+			<Pair Board="1" White="7" Black="5" Result="01" Type="1"/><Pair Board="2" White="1" Black="8" Result="01" Type="1"/><Pair Board="3" White="10" Black="4" Result="01" Type="1"/><Pair Board="4" White="3" Black="6" Result="10" Type="1"/><Pair Board="5" White="9" Black="0" Result="10" Type="3"/><Pair Board="6" White="2" Black="0" Result="00" Type="4"/>
+		</Pairing><Pairing>
+			<Pair Board="1" White="4" Black="5" Result="22" Type="1"/><Pair Board="2" White="8" Black="7" Result="01" Type="1"/><Pair Board="3" White="1" Black="3" Result="22" Type="1"/><Pair Board="4" White="9" Black="10" Result="10" Type="1"/><Pair Board="5" White="6" Black="0" Result="10" Type="3"/><Pair Board="6" White="2" Black="0" Result="00" Type="4"/>
+		</Pairing>
+	</Rounds>
+</Tournament>

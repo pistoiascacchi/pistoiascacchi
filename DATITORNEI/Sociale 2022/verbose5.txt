@@ -1,0 +1,111 @@
+JVF> Pairings for round #5
+JVF> ############################################################
+JVF> 5 group(s) in round #5
+JVF> Group # 3.5: [5]
+JVF> Group # 3.0: [4, 7]
+JVF> Group # 2.5: [3]
+JVF> Group # 2.0: [1, 8, 9]
+JVF> Group # 1.0: [6, 10]
+JVF> ============================================================
+JVF> Bracket @3.5: [5W]
+JVF> MaxPairs:0 (floaters(s):1)
+JVF> getPairs: Unique pairing available
+JVF> Floater: 5
+JVF> ------------------------------------------------------------
+JVF> Requirement zero has been fullfilled
+JVF> ============================================================
+JVF> Bracket @3.0: [5W(3.5)][4b^v 7w]
+JVF> MaxPairs:1 (floaters(s):1)
+JVF> M: Incompatible players list: [5]
+JVF> M: opps(4): [7]
+JVF> M: opps(7): [4]
+JVF> getPairs: Unique pairing available
+JVF> Pair:    4 - 7
+JVF> Floater: 5
+JVF> ------------------------------------------------------------
+JVF> Requirement zero has been fullfilled
+JVF> ============================================================
+JVF> Bracket @2.5: [5W(3.5)][3w]
+JVF> MaxPairs:0 (floaters(s):2)
+JVF> getPairs: Unique pairing available
+JVF> Floater: 5
+JVF> Floater: 3
+JVF> ------------------------------------------------------------
+JVF> Requirement zero has been fullfilled
+JVF> ============================================================
+JVF> Bracket @2.0: [5Wv(3.5) 3wvv(2.5)][1B^v 8b_^ 9Bb_v]
+JVF> MaxPairs:2 (MDPPairs: 2 - floaters(s):1)
+JVF> M: Incompatible players list: []
+JVF> M: opps(5): [1, 8, 9]
+JVF> M: opps(3): [9]
+JVF> M: opps(1): [5]
+JVF> M: opps(8): [5]
+JVF> M: opps(9): [5, 3]
+JVF> Expected colors: 1W 1B 0w 1b 1(w) 1(b) 0a
+JVF> x=0; z=0
+JVF> Criteria usable at most: [C10, C11, C13, C14, C15, C17, C19]
+JVF> Criteria used in evaluation: [C10, C11, C13, C14, C15, C17, C19]
+JVF> MPT: Evaluation #1 for [ 5, 3] and [ 1, 8, 9]
+JVF> AS1=[ 5, 3]; AS2= [ 1, 8, 9]
+JVF> Cannot meet failure @2(pair=3-8)
+JVF> MPT: Evaluation #2 for [ 5, 3] and [ 1, 9, 8]
+JVF> AS1=[ 5, 3]; AS2= [ 1, 9, 8]
+JVF> C13 failure @1(pair=5-1)
+JVF> C17/3 failure @1(pair=5-1)
+JVF> Candidate is now the best
+JVF> MPT: Evaluation #3 for [ 5, 3] and [ 8, 1, 9]
+JVF> AS1=[ 5, 3]; AS2= [ 8, 1, 9]
+JVF> Cannot meet failure @2(pair=3-1)
+JVF> MPT: Evaluation #4 for [ 5, 3] and [ 8, 9, 1]
+JVF> AS1=[ 5, 3]; AS2= [ 8, 9, 1]
+JVF> C15 failure @1(pair=5-8)
+JVF> C19/3 failure @1(pair=5-8)
+JVF> C14 failure @3(id=1)
+JVF> Candidate is now the best
+JVF> MPT: Evaluation #5 for [ 5, 3] and [ 9, 1, 8]
+JVF> AS1=[ 5, 3]; AS2= [ 9, 1, 8]
+JVF> Cannot meet failure @2(pair=3-1)
+JVF> MPT: Evaluation #6 for [ 5, 3] and [ 9, 8, 1]
+JVF> AS1=[ 5, 3]; AS2= [ 9, 8, 1]
+JVF> Cannot meet failure @2(pair=3-8)
+JVF> MPF: Evaluation #1 for [ 5, 3] and [ 1, 8, 9]
+JVF> MPF: Evaluation #2 for [ 5, 3] and [ 1, 9, 8]
+JVF> AS1=[ 5, 3]; AS2= [ 1, 9, 8]
+JVF> C13 failure @1(pair=5-1)
+JVF> Discard candidate - champ is better for C13
+JVF> MPF: Evaluation #3 for [ 5, 3] and [ 8, 1, 9]
+JVF> MPF: Evaluation #4 for [ 5, 3] and [ 8, 9, 1]
+JVF> MPF: Evaluation #5 for [ 5, 3] and [ 9, 1, 8]
+JVF> MPF: Evaluation #6 for [ 5, 3] and [ 9, 8, 1]
+JVF> Pair:    5 - 8
+JVF> Pair:    3 - 9
+JVF> Floater: 1
+JVF> ------------------------------------------------------------
+JVF> PAB to MDP - one less pairable MDP
+JVF> C7: Check completed: OK
+JVF> Pairing of next bracket is maximum
+JVF> ------------------------------------------------------------
+JVF> Requirement zero has been fullfilled
+JVF> ============================================================
+JVF> Bracket @1.0: [1B(2.0)][6Wwxv^ 10Wwx_^]
+JVF> MaxPairs:1 (floaters(s):1)
+JVF> M: Incompatible players list: []
+JVF> M: opps(1): [PAB]
+JVF> M: opps(6): [10]
+JVF> M: opps(10): [6]
+JVF> getPairs: Unique pairing available
+JVF> Pair:    6 - 10
+JVF> Floater: 1
+JVF> Pairing ended - Colour allocation
+JVF> ************************************************************
+JVF> White [  5 (WWBB=3.5)] - [  8 (BWBW=2.0)] : =>   5
+JVF> White [  4 (BWBW=3.0)] - [  7 (WBWB=3.0)] : =>   7
+JVF> White [  3 (WBWB=2.5)] - [  9 ( WBW=2.0)] : =>   3
+JVF> White [  6 ( BWB=1.0)] - [ 10 ( BWB=1.0)] : =>   6
+JVF> Pairing for round 5
+JVF> Board #  1# :   5 -   8
+JVF> Board #  2# :   7 -   4
+JVF> Board #  3# :   3 -   9
+JVF> Board #  4# :   6 -  10
+JVF> Bye goes to :   1
+JVF> Pairings done
